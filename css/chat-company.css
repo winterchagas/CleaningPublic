@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+section{
+    height: 100vh;
+    display: grid;
+
+}
+
+#chat-line {
+    /*border: 2px solid pink;*/
+    margin-bottom: 40px;
+    justify-self: center;
+    align-self: end;
+    display: grid;
+    grid-template-columns:315px 315px 315px 315px;
+    grid-gap:10px;
+}
+
+
+
+.chat-box{
+    height: 400px;
+    width: 315px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+
+
+button,button:hover {
+    border:none;
+    color:#fff;
+    padding:10px
+}
+
+.chat__messages {
+    list-style-type:none
+}
+
+*{box-sizing:border-box;margin:0;padding:0;font-family:HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:300;font-size:.95rem}
+
+
+button{
+    background:#67ca9f;
+    border-radius: 3px;
+    cursor:pointer;
+    transition:background .3s ease;
+    outline: none;
+
+}
+
+button:hover{
+    background:#5eb992
+}
+
+button:disabled{
+    cursor:default;
+    background:#698ea5
+}
+
+input{
+    outline: none;
+}
+
+.chat{
+    display:flex;
+    background-color: #fafcfb;
+}
+
+.chat__footer{
+    background:#e6eaee;
+    padding:10px
+}
+
+.chat__main{
+    display:flex;
+    flex-direction:column;
+    height:400px;
+    width:100%;
+    border:1px solid gray;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(50,50,50,0.2);
+}
+
+.chat__messages{
+    flex-grow:1;
+    overflow-y:scroll;
+    -webkit-overflow-scrolling:touch;
+    padding:10px
+}
+
+.chat__footer{
+    display:flex;
+    flex-shrink:0
+}
+
+.chat__footer form{
+    flex-grow:1;
+    display:flex
+}
+
+.chat__footer form *{
+    margin-right:10px
+}
+
+.chat__footer input{
+    border:none;
+    padding:10px;
+    flex-grow:1
+}
+
+.message{
+    padding:10px
+}
+
+.message__title{
+    display:flex;
+    margin-bottom:5px
+}
+
+.message__title h4{
+    font-weight:600;
+    margin-right:10px}
+
+.message__title span{
+    color:#999
+}
+
+@media (max-width:600px){*{font-size:1rem}
+
+    .chat__sidebar{display:none}
+
+    .chat__footer{flex-direction:column}
+
+    .chat__footer form{margin-bottom:10px}
+
+    .chat__footer button{margin-right:0}}
+
+
