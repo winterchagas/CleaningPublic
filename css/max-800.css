@@ -1,0 +1,300 @@
+#navigation .label{
+    color: transparent;
+}
+
+#header{
+    grid-template-rows: 100px 530px;
+
+}
+
+#header:before {
+    width: 170px;
+}
+
+#header:after {
+    left: 200px;
+}
+
+#nav {
+    margin-left: 5px;
+    grid-template-columns: 100px 180px;
+    grid-gap: 30%;
+}
+
+#content-header{
+    display: grid;
+    grid-template-rows: 150px 300px;
+}
+
+#text {
+    margin-top: 0;
+
+}
+
+#second-h2{
+    font-size: 2rem;
+}
+
+
+#first-h1{
+    font-size: 1rem;
+}
+
+
+#drops-box{
+
+    align-self: center;
+    margin-top: 0;
+    grid-template-columns: none;
+    grid-template-rows: 70px 70px 70px 50px 50px;
+
+
+}
+
+
+#appointment-but{
+    width: 223px;
+    font-size: small;
+
+}
+
+#price{
+    color: transparent;
+    border: transparent;
+}
+
+#container1{
+
+    grid-template-rows: 250px 450px 270px 200px;
+
+}
+
+#second-h1{
+
+    font-size: 2rem;
+}
+
+
+#p2{
+    width: 70%;
+}
+
+
+
+
+.icon-1{
+    /*margin-left: 10%;*/
+    grid-template-columns: 50px 200px;
+    justify-self: center;
+}
+
+.icon-h1{
+
+    font-size: 2rem;
+
+}
+
+
+
+.icon-img{
+    width: 50px;
+    height: 50px;
+}
+
+
+#content-cont4{
+    /*margin-top: 100px;*/
+    height: 400px;
+    width: 90%;
+    grid-template-rows: 150px 200px;
+
+}
+
+#cont4-h1{
+    margin-top: 20px;
+    font-size: 2rem;
+
+}
+
+#clean-opt {
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 90px 90px;
+    grid-gap:10px;
+    justify-self: center;
+}
+
+.snip1584 {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 8px;
+    width: 110px;
+    color: #ffffff;
+    font-size: smaller;
+    text-align: left;
+}
+
+.snip1584 figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 40px 10px ;
+    margin-top: 0;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+}
+.snip1584 h3,
+.snip1584 h5 {
+    justify-self: center;
+    align-self: center;
+    margin: 0;
+    opacity: 0;
+    letter-spacing: none;
+    text-align: center;
+    font-size: small;
+}
+.snip1584 h3 {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    text-transform: uppercase;
+    font-weight: 100;
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    margin-bottom: 3px;
+}
+.snip1584 h5 {
+    font-weight: normal;
+    background-color: #56ccc4;
+    padding: 5px 5px;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+
+
+
+
+#container3{
+    height: 650px;
+    display: grid;
+
+}
+
+#cont-figure{
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: 160px 160px 170px;
+    grid-gap:40px;
+    justify-self: center;
+    align-self: center;
+    margin-right: 20px;
+}
+
+
+#h1-mobile{
+
+    color: #3d3d3d;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+#container2{
+    height: 350px;
+}
+
+#p-mobile{
+    color: #3c3c3c;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+#mockup-img{
+    width: 130px;
+    height: 190px;
+    left:30px;
+}
+
+#container5{
+    grid-template-rows: 150px 500px;
+}
+
+
+#cont5-h1{
+    font-size: 2rem;
+    color: #8aa8bd;
+}
+
+#box-comments{
+
+    grid-template-columns:none;
+    grid-template-rows: 200px 200px;
+
+}
+
+.cmts{
+    width: 300px;
+}
+
+
+
+#content-form-bot{
+    height: 600px;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 100px 500px;
+}
+
+
+
+
+
+#sixth-h1{
+    color:white;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /*border: 1px solid pink;*/
+}
+
+#cleaned-spn{
+    font-weight: 600;
+}
+
+
+
+#options-2{
+
+    width: 300px;
+    height: 380px;
+    grid-template-rows: 100px 100px 50px 50px;
+
+}
+
+#h1-drop-2{
+
+    width: 280px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+#drops-box-2{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap:5px;
+    margin: 40px auto;
+}
+
+

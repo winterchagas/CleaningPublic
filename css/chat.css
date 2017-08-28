@@ -13,7 +13,7 @@ button,button:hover {
 
 
 button{
-    background:#67ca9f;
+    background:#8aa8bd;
     border-radius: 3px;
     cursor:pointer;
     transition:background .3s ease;
@@ -22,7 +22,7 @@ button{
 }
 
 button:hover{
-    background:#5eb992
+    background:#a6c8d0
 }
 
 button:disabled{
@@ -95,12 +95,3 @@ input{
     color:#999
 }
 
-@media (max-width:600px){*{font-size:1rem}
-
-    .chat__sidebar{display:none}
-
-    .chat__footer{flex-direction:column}
-
-    .chat__footer form{margin-bottom:10px}
-
-    .chat__footer button{margin-right:0}}

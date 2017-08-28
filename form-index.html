@@ -15,7 +15,7 @@
 <header id="header-form">
     <div id="nav-form">
         <div id="logo-form">
-            <h1 id="nenos-form">Nenos<span id="cleaning-form">Cleaning</span></h1>
+            <h1 id="nenos-form">Touch<span id="cleaning-form">UP</span></h1>
         </div>
         <div id="links-form">
             <input type="button" class="link1-form input-form" value="Services">
@@ -29,40 +29,16 @@
 
 
     <div id="icons-header">
-        <div class="icons">
-            <img src="/assets/compcell.png" alt="" class="img-icon" style="width: 90px; height: 90px;">
-            <p class="p-icon">24/7 Online Booking</p>
-        </div>
-
-        <div class="icons">
-            <img src="/assets/calen.png" alt="" class="img-icon" style="width: 90px; height: 90px;">
-            <p class="p-icon">Select Date & Time</p>
-        </div>
-
-        <div class="icons">
-            <img src="/assets/itens.png" alt="" class="img-icon" style="width: 90px; height: 90px;">
-            <p class="p-icon">Select Service Needed</p>
-        </div>
-
-
-        <div class="icons">
-            <img src="/assets/padlock.png" alt="" class="img-icon" style="width: 90px; height: 90px;">
-            <p class="p-icon">Secure Payment</p>
-        </div>
-
-        <div class="icons">
-            <img src="/assets/email1.png" alt="" class="img-icon" style="width: 90px; height: 90px;">
-            <p class="p-icon">Confirmation Email</p>
-        </div>
-
+        <p id="p-text-form">Book a cleaning instantly by filling out the form below. Get ready for a clean like you’ve never
+        seen!</p>
     </div>
 </header>
 
-<section id="text-form">
-    <h1 id="h1-text-form">Love the feeling of a fresh, clean home?</h1>
-    <p id="p-text-form">Book a cleaning instantly by filling out the form below. Get ready for a clean like you’ve never
-        seen!</p>
-</section>
+<!--<section id="text-form">-->
+    <!--<h1 id="h1-text-form">Love the feeling of a fresh, clean home?</h1>-->
+    <!--<p id="p-text-form">Book a cleaning instantly by filling out the form below. Get ready for a clean like you’ve never-->
+        <!--seen!</p>-->
+<!--</section>-->
 
 
 <section id="container">
@@ -75,15 +51,15 @@
                 <div class="frm-box">
                     <div class="frm-header">
                         <h3 class="hdr-h3">Personal Information</h3>
-                        <p class="hdr-p">Tell us how to contact you regarding your service and where you want us to
-                            clean.</p>
                     </div>
 
 
                     <div class="content">
 
+                        <div class="img-h4">
+                        <img class="svg-img" src="assets/contact-info.svg">
                         <h4 class="frm-h4">Contact Information</h4>
-
+                        </div>
                         <div id="form-first-last">
                             <input id="form_first_name" name="form_first_name" placeholder="First Name" class="ipt"
                                    type="text" autocomplete="off">
@@ -140,13 +116,17 @@
 
 
                         <div class="separa"></div>
+                        <div class="img-h4">
+                        <img class="svg-img" src="assets/location.svg">
                         <h4 class="frm-h4">Location of Place to Clean</h4>
-                        <div class="">
-                            <input id="form_apt" name="form_apt" placeholder="Apt #" class="ipt" type="text"
-                                   autocomplete="off">
                         </div>
-                        <div class="">
+
+                        <div id="add-apt">
                             <input id="form_address" name="form_address" placeholder="Address" class="ipt" type="text"
+                                   autocomplete="off">
+
+
+                            <input id="form_apt" name="form_apt" placeholder="Apt #" class="ipt" type="text"
                                    autocomplete="off">
                         </div>
 
@@ -167,6 +147,29 @@
                             <input name="form_full_address" id="form_full_address" type="hidden">
                         </div>
 
+                    </div>
+                </div>
+                <div class="arrow-bdy">
+                <div class="arrow">
+                    <a href="#">
+                        <span class="bottom"></span>
+                    </a>
+                </div>
+                </div>
+            </form>
+
+            <form action="/service" method="post">
+                <div class="frm-box form-info">
+                    <div class="frm-header">
+                        <h3 class="hdr-h3">Service Information</h3>
+                        <p class="hdr-p">Tell us what cleaning services you need and when you would like us to come.</p>
+                    </div>
+
+                    <div class="content">
+                        <div class="img-h4">
+                        <img class="svg-img" src="assets/service.svg">
+                        <h4 class="frm-h4">Choose Your Service</h4>
+                        </div>
                         <div class="bd-bt">
                             <div class="bd">
                                 <div id="form_bedroom" class="wrapper-dropdown-3" tabindex="1">
@@ -198,23 +201,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <button id="btn_per" class="btn_per">GO</button>
-            </form>
 
-            <form action="/service" method="post">
-                <div class="frm-box">
-                    <div class="frm-header">
-                        <h3 class="hdr-h3">Service Information</h3>
-                        <p class="hdr-p">Tell us what cleaning services you need and when you would like us to come.</p>
-                    </div>
-
-                    <div class="content">
-
-                        <div class="separa"></div>
+                        <!--<div class="separa"></div>-->
+                        <div class="img-h4">
+                        <img class="svg-img" src="assets/frequency.svg">
                         <h4 class="frm-h4">Cleaning Frequency</h4>
-                        <div class="cleaning_frequency">
+                        </div>
+                        <div class="cleaning_frequency cont-mid">
                             <div class="btnmr">
                                 <button class="btn-form" id="one-time">One time</button>
                             </div>
@@ -234,10 +227,12 @@
                         </div>
 
 
-                        <div class="separa"></div>
-
+                        <!--<div class="separa"></div>-->
+                        <div class="img-h4">
+                        <img class="svg-img" src="assets/add.svg">
                         <h4 class="frm-h4">Service Add-Ons</h4>
-                        <div class="fbc_row row group" id="showhide_addons1">
+                        </div>
+                        <div class="fbc_row row group cont-mid" id="showhide_addons1">
                             <div class="addons_line">
                                 <div class="form_addons_box" id="icon-1" data-val="windows">
                                     <img class="form_addons_img"
@@ -377,14 +372,17 @@
                         </div>
 
                         <div class="separa"></div>
+                        <div class="img-h4">
+                        <img class="svg-img" src="assets/calendar.svg">
                         <h4 class="frm-h4">When would you like us to come?</h4>
-
-                        <div class="">
-                            <input id="form_date" name="form_date" placeholder="mm - dd - yyyy" type="date">
-                            <input id="form_input_date_h" name="form_input_date_h" type="hidden">
                         </div>
 
-                        <div class="">
+                        <div class="frm-when">
+                            <input id="form_date" name="form_date" placeholder="mm - dd - yyyy" type="date">
+                            <input id="form_input_date_h" name="form_input_date_h" type="hidden">
+
+
+
                             <div id="form_hour" class="wrapper-dropdown-3" tabindex="1">
                                 <span id="form_input_hour">-- : --</span>
                                 <input id="form_input_hour_h" name="form_input_hour_h" type="hidden">
@@ -398,12 +396,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="arrow-bdy">
+                        <div class="arrow">
+                            <a href="#">
+                                <span class="bottom"></span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <button id="btn_ser" class="btn_ser">GO</button>
+
             </form>
 
 
-            <div class="frm-box">
+            <div class="frm-box frm-pay">
                 <div class="frm-header">
                     <h3 class="hdr-h3" style="display:inline-block;">Payment Details</h3>
                     <div class="hdr-icon" style="display:inline-block;" title="">
@@ -438,21 +443,21 @@
                                 <!-- Used to display form errors -->
                                 <div id="card-errors" role="alert"></div>
                             </div>
-                            <button>GO</button>
+                            <button >GO</button>
                         </form>
 
                         <div class="separa"></div>
                         <div class="conf-form">
-                            <p class="descrip" style="font-weight: bold;">• A confirmation email will be sent upon
+                            <p class="descrip">• A confirmation email will be sent upon
                                 booking.</p>
-                            <p class="descrip" style="font-weight: bold;">• You will not be charged until your
+                            <p class="descrip">• You will not be charged until your
                                 appointment
                                 has been completed and we've followed up to make sure you're satisfied.</p>
                         </div>
                         <form action="/book" method="post">
-                            <div class="fbc_row row group">
+
                                 <button id="submitbform" class="btn-book">Book My Cleaning Now!</button>
-                            </div>
+
                         </form>
 
 
@@ -476,13 +481,12 @@
         </div>
 
 
-
+        <div id="box-total">
         <div id="box-form-2">
-
             <div id="info-box-2">
 
                 <div class="info-ico">
-                    <img class="info-img" src="/assets/pay.of.png" alt="" style="width: 90px; height: 90px;">
+                    <img class="info-img" src="assets/pay.svg">
                     <h3 class="h3-inf-ico">Easy & Secure Payments</h3>
                     <p class="p-inf-ico">IQ securely protects your information online and offline. Payments are
                         processed once services are completed.</p>
@@ -490,23 +494,16 @@
                 </div>
 
                 <div class="info-ico">
-                    <img class="info-img" src="/assets/people.of.png" alt="" style="width: 90px; height: 90px;">
+                    <img class="info-img" src="assets/chek.svg">
                     <h3 class="h3-inf-ico">Experienced Cleaners</h3>
                     <p class="p-inf-ico">Our cleaning professionals receive extensive training to ensure the expert
                         knowledge you expect from each IQ service, guaranteed.</p>
 
                 </div>
 
-                <div class="info-ico">
-                    <img class="info-img" src="/assets/like.of.png" alt="" style="width: 90px; height: 90px;">
-                    <h3 class="h3-inf-ico">Reference Checked Cleaners</h3>
-                    <p class="p-inf-ico">Your safety is our top priority! All our cleaners provide excellent references
-                        and have passed a full background check</p>
-
-                </div>
 
                 <div class="info-ico">
-                    <img class="info-img" src="/assets/chat.of.png" alt="" style="width: 90px; height: 90px;">
+                    <img class="info-img" src="assets/chat.svg">
                     <h3 class="h3-inf-ico">Exellent Customer Service</h3>
                     <p class="p-inf-ico">Our caring Agents maintain an efficient and reliable customer service to ensure
                         your satisfaction every time. Agents are available by phone and online Monday - Saturday, 8:00
@@ -514,13 +511,21 @@
                 </div>
             </div>
         </div>
+
+            <div id="total">
+
+                    <h1 id="h1-total"> Total:</h1>
+
+                    <h1 id="numb-total">$98</h1>
+
+            </div>
     </div>
 
     <input type="button" id="get-help" class="input-form" value="help">
 
     <iframe src="chat_page.html" name="myIframe"> </iframe>
 
-    <button id="test-btn" class="test-btn">GO</button>
+    <!--<button id="test-btn" class="test-btn btn_per">GO</button>-->
 
 
 </section>
@@ -528,7 +533,6 @@
 <!--<script src="/js/jquery.creditCardValidator.js"></script>-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvm3k38jtqQTFlHxM1Cco1sf9vAtwvdTk&libraries=places"></script>
 <script src="https://js.stripe.com/v3/"></script>
-<script src="/js/checkOut.js"></script>
 <script src="/js/formValidations.js"></script>
 
 </body>
