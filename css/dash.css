@@ -180,7 +180,15 @@ div[data-reactroot]{
     color: #8aa8bd;
 }
 
+.time{
+    font-size: 1.2rem;
+    color: #8aa8bd;
+    margin:15px 0;
+}
 
+#spn-time{
+    font-size: 1.2rem;
+}
 
 .cleaner{
     font-weight: 100;
