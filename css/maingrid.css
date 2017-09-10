@@ -406,8 +406,8 @@ input {
 #appointment-but{
     width: 255px;
     height: 51px;
-    border: 1px solid #90d8d3;
-    background-color: #56ccc4;
+    border: transparent;
+    background-color: #56aed3;
     color: whitesmoke;
     border-radius: 2px;
     font-weight: 100;
@@ -439,10 +439,10 @@ input {
 #container1{
 
     background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#bfebe8,#9ce4df); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#bfebe8,#9ce4df); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#bfebe8,#9ce4df); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#bfebe8,#9ce4df); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(#9bc3d4,#56aed3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9bc3d4,#56aed3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9bc3d4,#56aed3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9bc3d4,#56aed3); /* Standard syntax (must be last) */
     display: grid;
     grid-template-rows: 400px 280px 280px 280px;
     /*border: 3px solid orangered;*/
@@ -927,11 +927,10 @@ figure.snip0057.hover:before {
 #container6{
     /*height: 600px;*/
     background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#cfedeb,#9ce4df); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#cfedeb,#9ce4df); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#cfedeb,#9ce4df); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#cfedeb,#9ce4df); /* Standard syntax (must be last) */
-
+    background: -webkit-linear-gradient(#9bc3d4,#56aed3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9bc3d4,#56aed3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9bc3d4,#56aed3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9bc3d4,#56aed3); /* Standard syntax (must be last) */
 }
 
 #content-form-bot{

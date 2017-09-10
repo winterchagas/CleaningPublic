@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dash.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pathway+Gothic+One|Peddana|Special+Elite" rel="stylesheet">
+</head>
+<body>
+
+<div id="header">
+    <div id="hdr-cont">
+        <div id="hdr-logout"><a href="#"><img src="assets/logout.svg" alt="" style="width: 25px; height: 25px;" ></a></div>
+        <h1 class="cost-name">Hi,<span id="name">Neno</span></h1>
+    </div>
+</div>
+
+<div id="container" class="container">
+    <div data-reactroot="">
+        <div class="left_panel">
+            <div class="icon-lft">
+                <img src="assets/dash.svg" alt="" style="width: 20px; height: 20px;">
+            <h3 class="h3-left"><a class="nav" href="/dashboard">Dashboard</a></h3>
+            </div>
+            <div class="icon-lft">
+                <img src="assets/calendar.svg" alt="" style="width: 20px; height: 20px;">
+            <h3 class="h3-left"><a class="nav" href="/appointments">Appointments</a></h3>
+            </div>
+            <div class="icon-lft">
+                <img src="assets/home.svg" alt="" style="width: 20px; height:20px;">
+
+            <h3 class="h3-left"><a class="nav" href="/home_info">Home Information</a></h3>
+            </div>
+            <div class="icon-lft">
+                <img src="assets/pay.svg" alt="" style="width: 20px; height:20px;" >
+            <h3 class="h3-left"><a class="nav" href="/payment">Payment</a></h3>
+            </div>
+            <div class="icon-lft">
+                <img src="assets/account.svg" alt="" style="width: 20px; height:20px; fill:gray;">
+            <h3 class="h3-left"><a class="nav" href="/account">Account</a></h3>
+            </div>
+            <div class="icon-lft">
+                <img src="assets/chat.svg" alt="" style="width: 20px; height:20px;">
+            <h3 class="h3-left"><a class="nav" href="/faq">F.A.Q</a></h3>
+            </div>
+        </div>
+        <div class="right_panel">
+            <h1 id="h1-rgt">Dashboard</h1>
+            <ul>
+                <li class="appt-list">
+                    <p class="p1">1540 Fledermaus Court</p>
+                    <p class="p1">09/12/2017</p>
+                        <button class="completed">Complete</button>
+
+                    <ul class="dropdown" id="drop-hide">
+                        <li class="add-ons">Add-Ons:</li>
+                        <li class="drop-1">
+                            <div class="add-icn-p">
+                            <img class="add-icn" id="dish" src="assets/dish.svg" alt="" style="width: 40px; height: 40px">
+                            <p class="add-p">Dishes</p>
+                            </div>
+                            <div class="add-icn-p">
+                            <img class="add-icn" id="carpet" src="assets/vacuum.svg" alt="" style="width: 40px; height: 40px">
+                            <p class="add-p">Carpet</p>
+                            </div>
+                            <div class="add-icn-p">
+                            <img class="add-icn" id="oven" src="assets/oven.svg" alt="" style="width: 40px; height: 40px">
+                            <p class="add-p">Oven</p>
+                            </div>
+                            <div class="add-icn-p">
+                            <img class="add-icn" id="fridge" src="assets/fridge.svg" alt="" style="width: 40px; height: 40px">
+                            <p class="add-p">Fridge</p>
+                            </div>
+                            <div class="add-icn-p">
+                            <img class="add-icn" id="laundry" src="assets/laundry.svg" alt="" style="width: 40px; height: 40px">
+                            <p class="add-p">Laundry</p>
+                            </div>
+                            <div class="add-icn-p">
+                            <img class="add-icn" id="move-in-out" src="assets/move.svg" alt="" style="width: 40px; height: 40px">
+                            <p class="add-p">Move-in/out</p>
+                            </div>
+                        </li>
+                        <li class="cleaner">Cleaner: <span class="cleaner-name">Rosa</span></li>
+
+                    </ul>
+                </li>
+                <li class="appt-list appt-cmpt">
+                    <p class="p1">1540 Fledermaus Court</p>
+                    <p class="p1">09/12/2017</p>
+                    <p class="p2">Completed</p>
+                </li>
+                <li class="appt-list appt-cmpt">
+                    <p class="p1">1540 Fledermaus Court</p>
+                    <p class="p1">09/12/2017</p>
+                    <p class="p2">Completed</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="/public/bundle.js"></script>
+
+</body>
+</html>
