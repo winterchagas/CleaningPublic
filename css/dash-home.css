@@ -1,0 +1,9 @@
+.back-form{
+    display: grid;
+}
+
+form{
+    justify-self: center;
+    margin-bottom: 30px;
+}
+

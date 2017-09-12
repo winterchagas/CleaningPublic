@@ -14,8 +14,9 @@ li{
 button{
     width: 80px;
     height: 30px;
-    border-radius: 2px;
-    background-color: #0a9cd9;
+    border-radius: 20px;
+    /*background-color: #0a9cd9;*/
+    background: rgba(59,173,227,1);
     color: white;
     border: none;
     outline: none;
@@ -23,16 +24,15 @@ button{
     letter-spacing: 1px;
 }
 
-button:active{
 
-}
 
 body{
     background-color: #f0f5fa;
 }
 
 #header{
-    background:rgba(10,156,217, 0.5);
+    background: rgba(59,173,227,1);
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(10,156,217, 0.5) 51%, #0a9cd9 100%);;
     width: 100%;
 }
 
@@ -98,7 +98,7 @@ div[data-reactroot]{
 }
 
 .nav:hover{
-    color: #0a9cd9;
+    color: #8aa8bd;
 }
 
 .right_panel{
@@ -120,10 +120,12 @@ div[data-reactroot]{
 
 }
 
+/*-----DASH INFO-----*/
+
 
 .appt-list{
     display: grid;
-    grid-template-columns: 300px 320px 60px;
+    grid-template-columns:330px 280px 60px;
     grid-gap:30px;
     list-style-type: none;
     justify-self: center;
@@ -131,15 +133,13 @@ div[data-reactroot]{
     border-left: 5px solid #0a9cd9;
     padding: 15px 10px;
     cursor: pointer;
+    background-color: #f2f6fa;
 
 }
 
 .appt-cmpt{
     border-left: 5px solid #1ab188 ;
 }
-
-
-
 
 .p1{
     font-size: 1.2rem;
@@ -155,8 +155,10 @@ div[data-reactroot]{
 }
 
 .dropdown{
+    width: 750px;
+    padding: 10px 10px;
     display: grid;
-    width: 770px;
+    background-color: white;
 }
 
 #drop-hide{
@@ -164,20 +166,26 @@ div[data-reactroot]{
 }
 
 .drop-1{
-    height: 170px;
-    width: 220px;
     display: grid;
-    justify-self: center;
-    align-self: center;
-    grid-template-columns: 45% 45% 45%;
-    grid-template-rows: 50% 50% 50%;
+    grid-template-columns: 130px 130px 130px 130px 130px 120px;
+
+
     /*border: 1px solid black;*/
 }
 
+.add-icn-p{
+    margin:10px 10px;
+}
+
 .add-ons{
+    width: 130px;
     font-weight: 100;
     font-size: 1.2rem;
     color: #8aa8bd;
+}
+
+.add-p{
+    font-size: small;
 }
 
 .time{
@@ -197,11 +205,13 @@ div[data-reactroot]{
 }
 
 
-
 .add-icn{
     padding: 8px 8px;
     border: 1px dashed gray;
     border-radius: 50%;
 }
+
+/*------END-DASH-IFO-------*/
+
 
 

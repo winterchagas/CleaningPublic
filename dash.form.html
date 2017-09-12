@@ -1,10 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TouchUp Cleaning</title>
+    <!--<link rel="stylesheet" href="/public/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="/css/style.css">-->
+    <script type="text/javascript" charset="utf-8" src="/public/0.9da620f509ae0ab7bf9a.hot-update.js"></script>
 </head>
 <body>
-$END$
+<div id="header">
+    <div id="hdr-cont">
+        <div id="hdr-logout"><a href="#"><img src="./public/assets/logout.svg" alt=""
+                                              style="width: 25px; height: 25px;"></a></div>
+        <h1 class="cost-name">Hi,<span id="name">Neno</span></h1>
+    </div>
+</div>
+
+<div class="container" id="container">
+    <div data-reactroot="">
+        <div class="left_panel">
+            <div class="icon-lft">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                     style="height: 20px; width: 20px; fill: rgb(138, 168, 189);">
+                    <path d="M96.8,21c0,1.8-1.5,3.3-3.3,3.3H6.6c-1.8,0-3.3-1.5-3.3-3.3v-6.7c0-1.8,1.5-3.3,3.3-3.3h86.9c1.8,0,3.3,1.5,3.3,3.3V21z
+ M96.8,41c0,1.8-1.5,3.3-3.3,3.3H6.6c-1.8,0-3.3-1.5-3.3-3.3v-6.7c0-1.8,1.5-3.3,3.3-3.3h86.9c1.8,0,3.3,1.5,3.3,3.3V41z
+ M96.8,61.1c0,1.8-1.5,3.3-3.3,3.3H6.6c-1.8,0-3.3-1.5-3.3-3.3v-6.7c0-1.8,1.5-3.3,3.3-3.3h86.9c1.8,0,3.3,1.5,3.3,3.3V61.1z
+ M96.8,81.1c0,1.8-1.5,3.3-3.3,3.3H6.6c-1.8,0-3.3-1.5-3.3-3.3v-6.7c0-1.8,1.5-3.3,3.3-3.3h86.9c1.8,0,3.3,1.5,3.3,3.3V81.1z"></path>
+                </svg>
+                <h3 class="h3-left"><a class="nav" href="/">Dashboard</a></h3></div>
+            <div class="icon-lft">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                     style="height: 20px; width: 20px; fill: rgb(138, 168, 189);">
+                    <path d="M92.8,88.8c0,3.6-3,6.6-6.6,6.6H13.2c-3.6,0-6.6-3-6.6-6.6V22.5c0-3.6,3-6.6,6.6-6.6h6.6v-5c0-4.6,3.7-8.3,8.3-8.3h3.3
+ c4.6,0,8.3,3.7,8.3,8.3v5h19.9v-5c0-4.6,3.7-8.3,8.3-8.3h3.3c4.6,0,8.3,3.7,8.3,8.3v5h6.6c3.6,0,6.6,3,6.6,6.6V88.8z M86.1,88.8
+ v-53H13.2v53H86.1z M33.1,10.9c0-0.9-0.7-1.7-1.7-1.7h-3.3c-0.9,0-1.7,0.7-1.7,1.7v14.9c0,0.9,0.7,1.7,1.7,1.7h3.3
+ c0.9,0,1.7-0.7,1.7-1.7V10.9z M47.6,79.1c-0.7,0.6-1.7,0.6-2.4,0L30.3,64.2c-0.6-0.7-0.6-1.7,0-2.3l2.4-2.4c0.6-0.6,1.7-0.6,2.3,0
+ l11.4,11.4l23-23c0.7-0.6,1.7-0.6,2.3,0l2.4,2.4c0.6,0.6,0.6,1.7,0,2.3L47.6,79.1z M72.9,10.9c0-0.9-0.7-1.7-1.7-1.7h-3.3
+ c-0.9,0-1.7,0.7-1.7,1.7v14.9c0,0.9,0.7,1.7,1.7,1.7h3.3c0.9,0,1.7-0.7,1.7-1.7V10.9z"></path>
+                </svg>
+                <h3 class="h3-left"><a class="nav" href="/appointments">Appointments</a></h3></div>
+            <div class="icon-lft">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                     style="height: 20px; width: 20px; fill: rgb(138, 168, 189);">
+                    <path d="M93.8,57.2c-0.3,0.4-0.8,0.6-1.2,0.7c-0.1,0-0.1,0-0.2,0c-0.5,0-0.9-0.1-1.2-0.4L50,23.2L8.9,57.4
+ c-0.4,0.3-0.9,0.5-1.4,0.4c-0.5-0.1-1-0.3-1.2-0.7l-3.7-4.4c-0.7-0.8-0.5-2,0.2-2.7l42.7-35.6c2.5-2.1,6.5-2.1,9,0L69,26.7V15.1
+ c0-1.1,0.8-1.9,1.9-1.9h11.4c1.1,0,1.9,0.8,1.9,1.9v24.2l13,10.8c0.8,0.7,0.9,1.9,0.2,2.7L93.8,57.2z M84.2,85.4
+ c0,2.1-1.7,3.8-3.8,3.8H57.6V66.4H42.4v22.8H19.6c-2.1,0-3.8-1.7-3.8-3.8V56.9c0-0.1,0.1-0.2,0.1-0.4L50,28.4l34.1,28.1
+ c0.1,0.1,0.1,0.2,0.1,0.4V85.4z"></path>
+                </svg>
+                <h3 class="h3-left"><a class="nav" href="/home_info">Home Information</a></h3></div>
+            <div class="icon-lft">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                     style="height: 20px; width: 20px; fill: rgb(138, 168, 189);">
+                    <path d="M94.5,22.7v56.4c0,4.1-3.3,7.4-7.4,7.4H12.9c-4.1,0-7.4-3.3-7.4-7.4V22.7c0-4.1,3.3-7.4,7.4-7.4h74.2
+ C91.2,15.3,94.5,18.7,94.5,22.7z M11.4,22.7v10.4h77.2V22.7c0-0.8-0.7-1.5-1.5-1.5H12.9C12.1,21.2,11.4,21.9,11.4,22.7z M88.6,79.1
+ V50.9H11.4v28.2c0,0.8,0.7,1.5,1.5,1.5h74.2C87.9,80.6,88.6,79.9,88.6,79.1z M17.4,68.7h11.9v5.9H17.4V68.7z M35.2,68.7H53v5.9
+ H35.2V68.7z"></path>
+                </svg>
+                <h3 class="h3-left"><a class="nav" href="/payment">Payment</a></h3></div>
+            <div class="icon-lft">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                     style="height: 20px; width: 20px; fill: rgb(138, 168, 189);">
+                    <path d="M94.2,77.1c0,3.8-3.1,6.9-6.9,6.9H12.7c-3.8,0-6.9-3.1-6.9-6.9V24.6c0-3.8,3.1-6.9,6.9-6.9h74.6c3.8,0,6.9,3.1,6.9,6.9
+ V77.1z M88.7,24.6c0-0.7-0.6-1.4-1.4-1.4H12.7c-0.7,0-1.4,0.6-1.4,1.4v52.5c0,0.7,0.6,1.4,1.4,1.4h15.2v-4.1c0-0.8,0.6-1.4,1.4-1.4
+ H32c0.8,0,1.4,0.6,1.4,1.4v4.1h33.2v-4.1c0-0.8,0.6-1.4,1.4-1.4h2.8c0.8,0,1.4,0.6,1.4,1.4v4.1h15.2c0.7,0,1.4-0.6,1.4-1.4V24.6z
+ M44.5,67.5H22.4c-3.1,0-5.5-2.7-5.5-6.4c0-6.7,1.6-14.1,8.5-14.1c2.1,1.2,5,3.3,8.1,3.3s6-2.1,8.1-3.3c6.8,0,8.5,7.4,8.5,14.1
+ C50,64.8,47.5,67.5,44.5,67.5z M33.4,48.4c-5.4,0-9.8-4.4-9.8-9.8c0-5.4,4.4-9.8,9.8-9.8s9.8,4.4,9.8,9.8
+ C43.2,44,38.8,48.4,33.4,48.4z M83.2,38.4c0,0.8-0.6,1.4-1.4,1.4H56.9c-0.8,0-1.4-0.6-1.4-1.4v-2.8c0-0.8,0.6-1.4,1.4-1.4h24.9
+ c0.8,0,1.4,0.6,1.4,1.4V38.4z M83.2,49.3c0,0.9-0.7,1.6-1.6,1.6H57.1c-0.9,0-1.6-0.7-1.6-1.6v-2.4c0-0.9,0.7-1.6,1.6-1.6h24.5
+ c0.9,0,1.6,0.7,1.6,1.6V49.3z M83.2,60.5c0,0.8-0.6,1.4-1.4,1.4H56.9c-0.8,0-1.4-0.6-1.4-1.4v-2.8c0-0.8,0.6-1.4,1.4-1.4h24.9
+ c0.8,0,1.4,0.6,1.4,1.4V60.5z"></path>
+                </svg>
+                <h3 class="h3-left"><a class="nav" href="/account">Account</a></h3></div>
+            <div class="icon-lft">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                     style="height: 20px; width: 20px; fill: rgb(138, 168, 189);">
+                    <path d="M76.3,44.4c0,14.6-16.2,26.3-36.2,26.3c-3.1,0-6.2-0.3-9.1-0.8c-4.3,3-9.1,5.2-14.3,6.6c-1.4,0.4-2.9,0.6-4.4,0.8
+ c-0.1,0-0.1,0-0.2,0c-0.8,0-1.5-0.6-1.6-1.5c-0.2-1,0.5-1.6,1-2.3c2-2.3,4.3-4.3,6-8.5C9.3,60.2,3.9,52.8,3.9,44.4
+ c0-14.6,16.2-26.3,36.2-26.3S76.3,29.9,76.3,44.4z M10.5,44.4c0,5.7,3.8,11.1,10.4,14.9l5,2.9l-1.8,4.3c1.1-0.6,2.2-1.3,3.2-2
+ l2.3-1.6l2.7,0.5c2.6,0.5,5.2,0.7,7.9,0.7c16.1,0,29.6-9.1,29.6-19.8c0-10.7-13.6-19.8-29.6-19.8S10.5,33.7,10.5,44.4z M88.4,86.8
+ c0.6,0.7,1.2,1.3,1,2.3c-0.2,0.9-1,1.6-1.8,1.5c-1.5-0.2-3-0.5-4.4-0.8c-5.2-1.3-10-3.6-14.3-6.6C66.1,83.6,63,84,59.9,84
+ c-9.3,0-17.9-2.6-24.3-6.8c1.5,0.1,3,0.2,4.5,0.2c11.1,0,21.5-3.2,29.5-9c8.6-6.3,13.3-14.8,13.3-24c0-2.7-0.4-5.3-1.2-7.8
+ c8.7,4.8,14.4,12.4,14.4,21c0,8.4-5.4,15.8-13.7,20.6C84.2,82.5,86.4,84.5,88.4,86.8z"></path>
+                </svg>
+                <h3 class="h3-left"><a class="nav" href="/faq">F.A.Q</a></h3></div>
+        </div>
+        <div class="right_panel">
+            <h1 id="h1-rgt">Home Information</h1>
+            <div class="back-form">
+        <form>
+            <div>
+                <div style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto,sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                    <label for="streetaddress-Address-Address-56537"
+                           style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(0.75) translate(0px, -28px); transform-origin: left top 0px; pointer-events: none; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">Address</label>
+                    <div style="position: absolute; opacity: 0; color: rgba(0, 0, 0, 0.3); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">
+                        Address
+                    </div>
+                    <input name="street_address" value="560 S Bascom Ave" id="streetaddress-Address-Address-56537"
+                           style="padding: 0px; position: relative; width: 100%; border: medium none; outline: medium none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font: inherit; height: 100%; box-sizing: border-box; margin-top: 14px; -moz-appearance: textfield;"
+                           type="text">
+                    <div>
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 1px; border-style: none none solid; border-color: rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 2px; border-style: none none solid; border-color: rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto,sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                    <label for="apt-Apt-Apt-38705"
+                           style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(0.75) translate(0px, -28px); transform-origin: left top 0px; pointer-events: none; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">Apt</label>
+                    <div style="position: absolute; opacity: 0; color: rgba(0, 0, 0, 0.3); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">
+                        Apt
+                    </div>
+                    <input name="apt" value="26" id="apt-Apt-Apt-38705"
+                           style="padding: 0px; position: relative; width: 100%; border: medium none; outline: medium none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font: inherit; height: 100%; box-sizing: border-box; margin-top: 14px; -moz-appearance: textfield;"
+                           type="text">
+                    <div>
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 1px; border-style: none none solid; border-color: rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 2px; border-style: none none solid; border-color: rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto,sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                    <label for="city-City-City-39581"
+                           style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(0.75) translate(0px, -28px); transform-origin: left top 0px; pointer-events: none; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">City</label>
+                    <div style="position: absolute; opacity: 0; color: rgba(0, 0, 0, 0.3); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">
+                        City
+                    </div>
+                    <input name="city" value="San Jose" id="city-City-City-39581"
+                           style="padding: 0px; position: relative; width: 100%; border: medium none; outline: medium none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font: inherit; height: 100%; box-sizing: border-box; margin-top: 14px; -moz-appearance: textfield;"
+                           type="text">
+                    <div>
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 1px; border-style: none none solid; border-color: rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 2px; border-style: none none solid; border-color: rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div name="state"
+                     style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto,sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                    <label for="state-undefined-State-36021"
+                           style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(0.75) translate(0px, -28px); transform-origin: left top 0px; pointer-events: none; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">State</label>
+                    <div id="state-undefined-State-36021"
+                         style="display: block; font: inherit; height: 100%; outline: medium none; position: relative; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; padding: 0px; width: 100%; border: medium none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; box-sizing: border-box; margin-top: 14px;">
+                        <div style="cursor: pointer; height: 100%; position: relative; width: 100%;">
+                            <div style="box-sizing: border-box; content: &quot; &quot;; display: table;"></div>
+                            <div style="color: rgba(0, 0, 0, 0.87); height: 56px; line-height: 56px; overflow: hidden; opacity: 1; position: relative; padding-left: 0px; padding-right: 56px; text-overflow: ellipsis; top: 6px; white-space: nowrap;">
+                                CA
+                            </div>
+                            <button tabindex="0" type="button"
+                                    style="border: 10px none; box-sizing: border-box; display: inline-block; font-family: Roboto,sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 12px; outline: medium none; font-size: 0px; font-weight: inherit; position: absolute; z-index: 1; overflow: visible; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 48px; height: 48px; fill: rgb(224, 224, 224); right: 0px; top: 8px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;">
+                                <div>
+                                    <svg viewBox="0 0 24 24"
+                                         style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: inherit; height: 24px; width: 24px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; -moz-user-select: none;">
+                                        <path d="M7 10l5 5 5-5z"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div style="border-top: medium none; bottom: 1px; left: 0px; margin: -1px 24px; right: 0px; position: absolute;"></div>
+                            <div style="box-sizing: border-box; content: &quot; &quot;; clear: both; display: table;"></div>
+                        </div>
+                        <div style="display: none;"><!-- react-empty: 1866 --><!-- react-empty: 1867 --></div>
+                    </div>
+                    <div>
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 1px; border-style: none none solid; border-color: rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 2px; border-style: none none solid; border-color: rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto,sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                    <label for="zipcode-Zipcode-Zipcode-56118"
+                           style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(0.75) translate(0px, -28px); transform-origin: left top 0px; pointer-events: none; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">Zipcode</label>
+                    <div style="position: absolute; opacity: 0; color: rgba(0, 0, 0, 0.3); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">
+                        Zipcode
+                    </div>
+                    <input name="zipcode" value="95128" id="zipcode-Zipcode-Zipcode-56118"
+                           style="padding: 0px; position: relative; width: 100%; border: medium none; outline: medium none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font: inherit; height: 100%; box-sizing: border-box; margin-top: 14px; -moz-appearance: textfield;"
+                           type="text">
+                    <div>
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 1px; border-style: none none solid; border-color: rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 2px; border-style: none none solid; border-color: rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div name="bedrooms"
+                     style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto,sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                    <label for="bedrooms-undefined-Bedrooms-40030"
+                           style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(0.75) translate(0px, -28px); transform-origin: left top 0px; pointer-events: none; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">Bedrooms</label>
+                    <div id="bedrooms-undefined-Bedrooms-40030"
+                         style="display: block; font: inherit; height: 100%; outline: medium none; position: relative; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; padding: 0px; width: 100%; border: medium none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; box-sizing: border-box; margin-top: 14px;">
+                        <div style="cursor: pointer; height: 100%; position: relative; width: 100%;">
+                            <div style="box-sizing: border-box; content: &quot; &quot;; display: table;"></div>
+                            <div style="color: rgba(0, 0, 0, 0.87); height: 56px; line-height: 56px; overflow: hidden; opacity: 1; position: relative; padding-left: 0px; padding-right: 56px; text-overflow: ellipsis; top: 6px; white-space: nowrap;">
+                                6
+                            </div>
+                            <button tabindex="0" type="button"
+                                    style="border: 10px none; box-sizing: border-box; display: inline-block; font-family: Roboto,sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 12px; outline: medium none; font-size: 0px; font-weight: inherit; position: absolute; z-index: 1; overflow: visible; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 48px; height: 48px; fill: rgb(224, 224, 224); right: 0px; top: 8px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;">
+                                <div>
+                                    <svg viewBox="0 0 24 24"
+                                         style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: inherit; height: 24px; width: 24px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; -moz-user-select: none;">
+                                        <path d="M7 10l5 5 5-5z"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div style="border-top: medium none; bottom: 1px; left: 0px; margin: -1px 24px; right: 0px; position: absolute;"></div>
+                            <div style="box-sizing: border-box; content: &quot; &quot;; clear: both; display: table;"></div>
+                        </div>
+                        <div style="display: none;"><!-- react-empty: 1893 --><!-- react-empty: 1894 --></div>
+                    </div>
+                    <div>
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 1px; border-style: none none solid; border-color: rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 2px; border-style: none none solid; border-color: rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div name="bathrooms"
+                     style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto,sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                    <label for="bathrooms-undefined-Bathrooms-58278"
+                           style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(0.75) translate(0px, -28px); transform-origin: left top 0px; pointer-events: none; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">Bathrooms</label>
+                    <div id="bathrooms-undefined-Bathrooms-58278"
+                         style="display: block; font: inherit; height: 100%; outline: medium none; position: relative; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; padding: 0px; width: 100%; border: medium none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; box-sizing: border-box; margin-top: 14px;">
+                        <div style="cursor: pointer; height: 100%; position: relative; width: 100%;">
+                            <div style="box-sizing: border-box; content: &quot; &quot;; display: table;"></div>
+                            <div style="color: rgba(0, 0, 0, 0.87); height: 56px; line-height: 56px; overflow: hidden; opacity: 1; position: relative; padding-left: 0px; padding-right: 56px; text-overflow: ellipsis; top: 6px; white-space: nowrap;">
+                                6
+                            </div>
+                            <button tabindex="0" type="button"
+                                    style="border: 10px none; box-sizing: border-box; display: inline-block; font-family: Roboto,sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 12px; outline: medium none; font-size: 0px; font-weight: inherit; position: absolute; z-index: 1; overflow: visible; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 48px; height: 48px; fill: rgb(224, 224, 224); right: 0px; top: 8px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;">
+                                <div>
+                                    <svg viewBox="0 0 24 24"
+                                         style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: inherit; height: 24px; width: 24px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; -moz-user-select: none;">
+                                        <path d="M7 10l5 5 5-5z"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div style="border-top: medium none; bottom: 1px; left: 0px; margin: -1px 24px; right: 0px; position: absolute;"></div>
+                            <div style="box-sizing: border-box; content: &quot; &quot;; clear: both; display: table;"></div>
+                        </div>
+                        <div style="display: none;"><!-- react-empty: 1912 --><!-- react-empty: 1913 --></div>
+                    </div>
+                    <div>
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 1px; border-style: none none solid; border-color: rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                        <hr aria-hidden="true"
+                            style="border-width: medium medium 2px; border-style: none none solid; border-color: rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto,sans-serif; border-radius: 2px; display: inline-block; min-width: 88px; margin: 12px;">
+                    <button disabled="" tabindex="-1" type="submit"
+                            style="border: 10px none; box-sizing: border-box; display: inline-block; font-family: Roboto,sans-serif; cursor: default; text-decoration: none; margin: 0px; padding: 0px; outline: medium none; font-size: inherit; font-weight: inherit; position: relative; z-index: 1; height: 36px; line-height: 36px; width: 100%; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background-color: rgb(229, 229, 229); text-align: center;">
+                        <div style="height: 36px; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;">
+                            <svg viewBox="0 0 24 24"
+                                 style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.3); height: 24px; width: 24px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; vertical-align: middle; margin-left: 12px; margin-right: 0px; -moz-user-select: none;">
+                                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                            </svg>
+                            <span style="position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; padding-left: 8px; padding-right: 16px; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">Submit</span>
+                        </div>
+                    </button>
+                </div>
+                <div style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto,sans-serif; border-radius: 2px; display: inline-block; min-width: 88px;">
+                    <button disabled="" tabindex="-1" type="button"
+                            style="border: 10px none; box-sizing: border-box; display: inline-block; font-family: Roboto,sans-serif; cursor: default; text-decoration: none; margin: 0px; padding: 0px; outline: medium none; font-size: inherit; font-weight: inherit; position: relative; z-index: 1; height: 36px; line-height: 36px; width: 100%; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background-color: rgb(229, 229, 229); text-align: center;">
+                        <div style="height: 36px; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;">
+                            <span style="position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; padding-left: 16px; padding-right: 16px; color: rgba(0, 0, 0, 0.3); -moz-user-select: none;">Undo Changes</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<input id="input1" type="hidden" value="<%=customer%>">-->
+<!--<input id="input2" type="hidden" value="<%=house%>">-->
+<!--<input id="input3" type="hidden" value="<%=contract%>">-->
+<!--<input id="input4" type="hidden" value="<%=service%>">-->
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+    @import url('css/dash.css');
+    @import url('css/dash-home.css');
+</style>
+<script src="/public/bundle.js"></script>
+
+<style>
+    button::-moz-focus-inner,
+    input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+</style>
 </body>
 </html>
